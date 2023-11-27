@@ -48,7 +48,7 @@
 					}
 				})
 			);
-			const email = page.data.session.user.email;
+			const email = $page.data.session.user.email;
 			gr('track', 'conversion', { email: "rishikesavatech@gmail.com
 " });
 
