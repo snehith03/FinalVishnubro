@@ -8,7 +8,7 @@
 	import { handleError, supabaseClient } from '$lib/db';
 	import { getBaseUrl, showError, showInfo } from '$lib/utilities';
 
-	let email = '';
+
 	let loadingSubmit = false;
 	let loadingGoogle = false;
 
@@ -47,6 +47,7 @@
 					}
 				})
 			);
+			 const email = $page.data.session.user.email;
 			gr('track', 'conversion', { email: email });
 
 			goto('/app');
