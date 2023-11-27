@@ -1,0 +1,62 @@
+{
+	"/(homepage)": [
+		"src/routes/(homepage)/+layout.ts",
+		"src/routes/(homepage)/+layout.server.ts",
+		"src/routes/(homepage)/+layout.ts",
+		"src/routes/(homepage)/+layout.server.ts"
+	],
+	"/(app)": [
+		"src/routes/(app)/+layout.ts"
+	],
+	"/": [],
+	"/_about": [],
+	"/_help": [],
+	"/_legal/terms-and-conditions": [],
+	"/_signup": [
+		"src/routes/_signup/+page.ts"
+	],
+	"/api/prediction": [
+		"src/routes/api/prediction/+server.ts"
+	],
+	"/api/train": [
+		"src/routes/api/train/+server.ts"
+	],
+	"/api/webhooks/payment": [
+		"src/routes/api/webhooks/payment/+server.ts"
+	],
+	"/api/webhooks/[slug]/instance_data": [
+		"src/routes/api/webhooks/[slug]/instance_data/+server.ts"
+	],
+	"/api/webhooks/[slug]/prediction_complete": [
+		"src/routes/api/webhooks/[slug]/prediction_complete/+server.ts"
+	],
+	"/api/webhooks/[slug]/training_complete": [
+		"src/routes/api/webhooks/[slug]/training_complete/+server.ts"
+	],
+	"/(app)/app": [
+		"src/routes/(app)/app/+page.ts",
+		"src/routes/(app)/+layout.ts"
+	],
+	"/(homepage)/checkout": [
+		"src/routes/(homepage)/checkout/+server.ts"
+	],
+	"/(homepage)/contacts": [
+		"src/routes/(homepage)/+layout.ts",
+		"src/routes/(homepage)/+layout.server.ts"
+	],
+	"/(homepage)/login": [
+		"src/routes/(homepage)/login/+page.ts",
+		"src/routes/(homepage)/+layout.ts",
+		"src/routes/(homepage)/+layout.server.ts"
+	],
+	"/(homepage)/logout": [
+		"src/routes/(homepage)/logout/+page.ts",
+		"src/routes/(homepage)/+layout.ts",
+		"src/routes/(homepage)/+layout.server.ts"
+	],
+	"/(homepage)/payment_success": [
+		"src/routes/(homepage)/payment_success/+page.ts",
+		"src/routes/(homepage)/+layout.ts",
+		"src/routes/(homepage)/+layout.server.ts"
+	]
+}
