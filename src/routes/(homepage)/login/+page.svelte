@@ -47,7 +47,7 @@
 					}
 				})
 			);
-			 const email = $page.data.session.user.email;
+
 			gr('track', 'conversion', { email: email });
 
 			goto('/app');
