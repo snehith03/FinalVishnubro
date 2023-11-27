@@ -9,7 +9,7 @@ const config = {
 
 	 kit: {
     adapter: adapter({
-      maxDuration: 5,
+      maxDuration: 60,
     }),
   },
 }
