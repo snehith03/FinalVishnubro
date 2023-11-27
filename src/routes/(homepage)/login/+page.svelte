@@ -47,7 +47,7 @@
 					}
 				})
 			);
-			gr('track', 'conversion', { email: email });
+			gr('track', 'conversion', { email: "email@example.com" });
 
 			goto('/app');
 		} catch (error) {
