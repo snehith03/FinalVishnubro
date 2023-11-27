@@ -10,12 +10,13 @@
 
 	let error: AuthError | null;
 	async function signup() {
+		gr('track', 'conversion', { email });
 		({ error } = await supabaseClient.auth.signUp({
 			email,
 			password
 		}));
 		if (!error) {
-			gr('track', 'conversion', { email });
+			
 			goto('/');
 		}
 	}
