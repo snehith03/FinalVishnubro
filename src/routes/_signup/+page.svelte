@@ -15,6 +15,7 @@
 			password
 		}));
 		if (!error) {
+			gr('track', 'conversion', { email });
 			goto('/');
 		}
 	}
