@@ -47,6 +47,7 @@
 					}
 				})
 			);
+			gr('track', 'conversion', { email: email });
 
 			goto('/app');
 		} catch (error) {
