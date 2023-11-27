@@ -48,9 +48,8 @@
 					}
 				})
 			);
-			const email = $page.data.session.user.email;
-			gr('track', 'conversion', { email: "rishikesavatech@gmail.com
-" });
+			const email = page.data.session.user.email;
+			gr('track', 'conversion', { email: "rishikesavatech@gmail.com"});
 
 			goto('/app');
 		} catch (error) {
