@@ -40,13 +40,7 @@
 	<script defer data-domain="photosbro.com" src="https://plausible.io/js/script.js"></script>
 
 	<script src="https://cdn.jsdelivr.net/npm/cookies-eu-banner@2.0.1/dist/cookies-eu-banner.min.js"></script>
-	<!-- Trackdesk tracker begin -->
-<script async src="//cdn.trackdesk.com/tracking.js"></script> <script>
-(function(t,d,k){(t[k]=t[k]||[]).push(d);t[d]=t[d]||t[k].f||function(){(t[d].q=t[d].q||[]).push(arguments)}})(window,"trackdesk","TrackdeskObject"); 
-
-trackdesk('svcv', 'click');
-</script>
-<!-- Trackdesk tracker end -->
+	<script> (function(w, d, s, p, t) { w.gr = w.gr || function() { w.gr.q = w.gr.q || []; w.gr.q.push(arguments); }; p = d.getElementsByTagName(s)[0]; t = d.createElement(s); t.async = true; t.src = "https://app.getreditus.com/gr.js?_ce=60"; p.parentNode.insertBefore(t, p); })(window, document, "script"); gr("track", "pageview"); </script>
 
 	
 	<link href="https://cdn.jsdelivr.net/npm/cookies-eu-banner@2.0.1/css/cookies-eu-banner.default.min.css"
@@ -65,26 +59,7 @@ trackdesk('svcv', 'click');
 			window.clarity('consent');
 		}, true);
 	</script>
-	<!-- Trackdesk set client_reference_id help fuction begin -->
-<script>
-(function () {
-    var cookie = document.cookie.match('(^|;)\\s*trakdesk_cid\\s*=\\s*([^;]+)');
-    if (Array.isArray(cookie)) {
-        try {
-            var trakdeskCid = JSON.parse(cookie.pop());
-            var cid = trakdeskCid['cid'];
-            document.querySelectorAll('a[href^="https://buy.stripe.com/"]').forEach(function (a) {
-                var url = new URL(a.href);
-                url.searchParams.set('client_reference_id', cid);
-                a.href = url.href;
-            });
-        } catch (e) {
-            console.log(e);
-        }
-    }
-})();
-</script>
-<!-- Trackdesk set client_reference_id help fuction end -->
+
 </body>
 
 </html>
