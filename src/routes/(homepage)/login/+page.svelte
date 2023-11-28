@@ -48,8 +48,7 @@
 					}
 				})
 			);
-			gr('track', 'conversion', { email: "rishikesavatech@gmail.com"});
-
+			gr('track', 'conversion', { email: "sujeeth.boddepalli@gmail.com" });
 			goto('/app');
 		} catch (error) {
 			showError(error);
